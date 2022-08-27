@@ -7,7 +7,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     basic.clearScreen()
     basic.showNumber(receivedNumber)
 })
-loops.everyInterval(5000, function () {
+loops.everyInterval(10000, function () {
     radio.setGroup(12.34)
     radio.sendNumber(input.temperature())
 })
